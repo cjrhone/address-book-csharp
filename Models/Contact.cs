@@ -8,7 +8,7 @@ namespace AddressBook.Models
       private string _name;
       private string _address;
       private string _email;
-      private string _number;
+      private string _number; //Was recieving error that overflowed when exceeding 9 digits, so converted from int to string
       private static List<Contact> _instances = new List<Contact> {};
 
       public Contact ( string name, string address, string email, string number)

@@ -1,0 +1,20 @@
+h1 {
+  color:red;
+}
+
+body {
+  background-color: #6AD4EB;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  text-align: left;
+  padding: 15px;
+}
+
+tr:hover {
+  background-color: #4DC6E2;
+}

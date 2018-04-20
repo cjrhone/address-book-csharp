@@ -11,7 +11,8 @@ body {
 
 table {
   table-layout: fixed;
-  width: 100%;
+  width: 110%;
+  background-color: #F2F0EB;
 }
 
 table, th, td {
@@ -24,7 +25,7 @@ th, td {
 }
 
 tr:hover {
-  background-color: #6AD4EB;
+  background-color: #F9F6E5;
   /* #4DC6E2 */
 }
 
@@ -37,25 +38,27 @@ tr:hover {
 img {
   width: 90%;
   height: auto;
+  margin-top: 55px;
+  margin-left: 60px;
 }
 
 
 .sturdy td:nth-child(1) {
-  width: 55%;
+  width: 25%;
   word-wrap: break-word;
   /* Fits word content into each cell of column */
 }
 .sturdy td:nth-child(2) {
-  width: 50%;
+  width: 25%;
   word-wrap: break-word;
 }
 
 .sturdy td:nth-child(3) {
-  width: 50%;
+  width: 25%;
   word-wrap: break-word;
 }
 
 .sturdy td:nth-child(4) {
-  width: 50%;
+  width: 25%;
   word-wrap: break-word;
 }

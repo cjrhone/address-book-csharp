@@ -1,14 +1,22 @@
 <h1>Address Book</h1>
-<ul>
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Email</th>
+    <th>Number</th>
+  </tr>
   @foreach(var contact in Model)
   {
-    <li>@contact.GetName()</li>
-    <li>@contact.GetAddress()</li>
-    <li>@contact.GetEmail()</li>
-    <li>@contact.GetNumber()</li>
+  <tr>
+    <td>@contact.GetName()</td>
+    <td>@contact.GetAddress()</td>
+    <td>@contact.GetEmail()</td>
+    <td>@contact.GetNumber()</td>
+  </tr>
   }
-</ul>
+</table>
 <p><a href="/contact/new">Add another item</a></p>
 <form action="/contact/delete" method="post">
-  <button type="submit" name="button">Clear All Cars</button>
+  <button type="submit" name="button">Clear All Contacts</button>
 </form>

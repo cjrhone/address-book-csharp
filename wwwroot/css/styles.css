@@ -3,7 +3,15 @@ h1 {
 }
 
 body {
-  background-color: #6AD4EB;
+  background-color: #4DC6E2;
+  padding-top: 80px;
+  margin: auto 0px
+  /* #6AD4EB */
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
 }
 
 table, th, td {
@@ -16,5 +24,38 @@ th, td {
 }
 
 tr:hover {
-  background-color: #4DC6E2;
+  background-color: #6AD4EB;
+  /* #4DC6E2 */
+}
+
+
+/* .col-centered{
+    float: none;
+    margin: 0 auto;
+} */
+
+img {
+  width: 90%;
+  height: auto;
+}
+
+
+.sturdy td:nth-child(1) {
+  width: 55%;
+  word-wrap: break-word;
+  /* Fits word content into each cell of column */
+}
+.sturdy td:nth-child(2) {
+  width: 50%;
+  word-wrap: break-word;
+}
+
+.sturdy td:nth-child(3) {
+  width: 50%;
+  word-wrap: break-word;
+}
+
+.sturdy td:nth-child(4) {
+  width: 50%;
+  word-wrap: break-word;
 }

@@ -8,10 +8,10 @@ namespace AddressBook.Models
       private string _name;
       private string _address;
       private string _email;
-      private int _number;
+      private string _number;
       private static List<Contact> _instances = new List<Contact> {};
 
-      public Contact ( string name, string address, string email, int number)
+      public Contact ( string name, string address, string email, string number)
       {
         _name = name;
         _address = address;
@@ -44,11 +44,12 @@ namespace AddressBook.Models
       {
         _email = newEmail;
       }
-      public int GetNumber()
+      public string GetNumber()
       {
         return _number;
+
       }
-      public void SetNumber(int newNumber)
+      public void SetNumber(string newNumber)
       {
         _number = newNumber;
       }
